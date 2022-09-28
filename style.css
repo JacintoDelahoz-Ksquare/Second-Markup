@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(18, 6, 6);
+    margin: 40px;
+}
+
+
+  
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;     
+}
+  
+
+.grid > div {
+    border:1px solid rgb(62, 54, 54);
+    min-height:20px;
+    border-radius: 5px;
+    width: 31%;
+}
+
+ 
+img{
+    width: 50% ;
+}
+
+
+.first {
+    display: flex;
+    margin:10px ;
+ }
+
+.second {
+    display: flex;
+    margin:10px;
+}
+
+.third {
+    display: flex;
+    margin:10px ;
+}
+
+.fourth {
+    display: flex;
+    margin:10px ;
+}
+
+.Fifth {
+    display: flex;
+    margin:10px ;
+}
+
+.Sixth {
+    display: flex;
+    margin:10px;
+}   
+
+.text{
+    color: white;
+    margin-left: 10px;
+}
+
+#graytext{
+    color: grey;
+}
+
+ul li::before{
+    content: "\2022";
+    color: red;
+    font-weight: 600;
+    display: inline-block;
+    margin-left: -1em;
+    font-size: 20px;
+    width: 1em;
+}
+
+li{
+    margin-right: 20px;
+}
+
+ul{
+    list-style: none;
+    margin-right: 20px;
+}
+
+#greedot-ul li::before{
+    content: "\2022";
+    color: rgb(0, 255, 30);
+    font-weight: 600;
+    display: inline-block;
+    margin-left: -1em;
+    font-size: 20px;
+    width: 1em;
+}
